@@ -1,0 +1,21 @@
+
+Version 1.1
+
+Changes
+-Dynamic PyPSA calculations + Dynamic scenario: Summerday
+-Retrieve modules command send at startup
+-Moved console handler in table thread so they wont conflict (created undefined behaviour)
+-Low voltage sections will shutdown if no transformer is present
+-Added static Demo scenario for public events called Demo
+-GUI app can send console commands
+
+Version 1.0
+
+Changes
+-Terminal output and input
+-PyPSA calculation wont crash when a low voltage section is disconnected
+-Multiple scenarios and users can switch between them on the fly
+-Option for PyPSA result export
+-Different LED thresholds for LV, MV and HV sections
+-Transformers can only be placed on transdormer platforms
+-Table shutdown when no solution is possible
